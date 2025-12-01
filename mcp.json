@@ -1,0 +1,17 @@
+{
+  "name": "meeting-atmosphere-mcp",
+  "description": "MCP service for improving meeting and team activity atmosphere with ice-breaking games and jokes",
+  "version": "1.0.0",
+  "servers": {
+    "local": {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "server.py"
+      ],
+      "transport": "sse",
+      "disabled": false
+    }
+  }
+}

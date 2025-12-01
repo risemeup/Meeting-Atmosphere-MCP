@@ -1,0 +1,32 @@
+{
+  "name": "meeting-atmosphere-mcp",
+  "version": "1.0.0",
+  "description": "MCP service for improving meeting and team activity atmosphere with ice-breaking games and jokes",
+  "main": "index.js",
+  "scripts": {
+    "start": "uv run python server.py",
+    "dev": "uv run python server.py"
+  },
+  "bin": {
+    "meeting-atmosphere-mcp": "./bin/run.js"
+  },
+  "files": [
+    "server.py",
+    "config.py",
+    "llm_utils.py",
+    "bin/",
+    "uv.lock"
+  ],
+  "keywords": [
+    "mcp",
+    "meeting",
+    "team-building",
+    "ice-breaking",
+    "jokes"
+  ],
+  "author": "FastMCP Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
